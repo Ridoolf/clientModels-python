@@ -1,8 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='client.py',
-    version='0.1',
-    packages=find_packages(),
-    install_requires=[],
+    
+    name = 'package_client',
+    version = '1.8',
+    author = 'Lucas Ridolfi',
+    author_email = 'lucasg.ridolfi@gmail.com',
+    
+    packages = ['package_client']
+    
 )

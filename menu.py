@@ -1,4 +1,4 @@
-from client import Client
+from package_client.client import Client
 
 my_client = Client('Lucas', 'password123', 'lucas@mail.com')
 print(my_client)
